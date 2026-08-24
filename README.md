@@ -14,7 +14,7 @@ This repo is where I track what I learn every day. Instead of scattered notes, e
 |------------|-------------|--------------------------------------------------|
 | 2026-08-20 | Matplotlib  | `subplot()` — displaying multiple charts in one figure |
 | 2026-08-21 | Seaborn     | `lineplot()` basics — `hue` & `style` for grouping, custom markers, marker size, line width/style, hiding the legend, loading real datasets (tips) with pandas |
-|2026-08-24	Seaborn        |	scatterplot() — hue & size to encode a numeric column, sizes range for point scaling, style + custom markers for categorical grouping, alpha for transparency, plotting real datasets (tips)|
+|2026-08-24	|Seaborn        |	scatterplot() — hue & size to encode a numeric column, sizes range for point scaling, style + custom markers for categorical grouping, alpha for transparency, plotting real datasets (tips)|
 
 
 ## 🛠️ Tools & Tech
