@@ -1,0 +1,223 @@
+
+Data Cleaning Questions
+
+
+Q1. How many rows are present?
+
+
+Q2. How many columns are present?
+
+
+Q3. What is the size of the dataset?
+
+
+Q4. What are the column names?
+
+
+Q5. What are the data types?
+
+
+Q6. Are there missing values?
+
+
+Q7. What percentage of data is missing?
+
+(df.isnull().sum() / len(df) * 100).sort_values(ascending=False)
+
+
+
+Q8. Are there duplicate rows?
+
+
+Q9. Should we remove duplicate rows?
+
+
+Q10. How many unique hotels are there?
+
+
+Q11. How many bookings belong to each hotel?
+
+
+Q12. Are there missing values in children?
+
+
+Q13. What values exist in children?
+
+
+Q14. Are there missing country values?
+
+Q15. How many missing values are in agent?
+
+Q16. How many missing values are in company?
+
+
+Q17. Are there zero ADR values?
+
+Q18. Are there zero-adult bookings?
+
+Q19. What is the minimum lead time?
+
+Q20. What is the maximum lead time?
+
+Q21. What is the average lead time?
+
+Q22. What is the minimum ADR?
+
+Q23. What is the maximum ADR?
+
+Q24. What is the average ADR?
+
+Q25. What are the unique meal categories?
+
+Q26. What are the unique market segments?
+
+Q27. What are the unique deposit types?
+
+Q28. What are the unique customer types?
+
+Q29. What percentage of bookings were canceled?
+
+Q30. Are there any invalid cancellation values?
+
+Q31. Are there invalid hotel names?
+
+Q32. Are there 12 months?
+
+Q33. Are there missing arrival months?
+
+Q34. What years are available?
+
+Q35. How many bookings are from repeated guests?
+
+Q36. How many bookings have special requests?
+
+Q37. How many bookings require parking?
+
+
+
+Data Transformation
+
+
+1.Total nights
+
+2.Total guests
+
+
+
+Exploratory Data Analysis
+
+Which hotel receives more bookings?
+
+Which hotel has the highest cancellation rate?  hint(group by)
+
+Which month receives the most bookings?
+
+How does lead time affect cancellation?  hint(group by)
+
+Which market segment produces the most bookings?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
