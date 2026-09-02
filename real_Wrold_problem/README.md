@@ -43,8 +43,8 @@ Python, pandas, numpy — keeping it simple for now, might add matplotlib/seabor
 
 ## Progress Log
 
-- [ ] Data cleaning questions (Q1–Q37)
-- [ ] Data transformation
+- [Done ] Data cleaning questions (Q1–Q37)
+- [Done ] Data transformation
 - [ ] EDA questions
 
 *(I'll check these off and add notes as I go.)*
