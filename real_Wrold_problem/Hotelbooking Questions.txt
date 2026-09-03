@@ -118,7 +118,26 @@ Which market segment produces the most bookings?
 
 
 
+charts
 
+
+1. Total Bookings by Hotel (Count Plot)  
+
+2.What percentage of bookings were cancelled?  pie chart
+
+3.Which hotel has more cancelled bookings? stacked column
+
+4.Which market segment has the highest number of cancelled bookings? Bar chart
+
+5.Which hotel has the higher average room rate?(ADR) column chart
+
+6.Which month has the highest booking demand?   line chart
+
+7.During which month is the average daily rate highest? line chart
+
+8.Which type of customer makes the most bookings? Donut chart
+
+9.Is there a relationship between lead time and cancellation? scatter chart
 
 
 
