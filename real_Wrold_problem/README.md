@@ -43,6 +43,7 @@ I'm building my skills in data science/analytics one dataset at a time. Instead 
   - Average ADR by month (line chart)
   - Bookings by customer type (donut chart)
   - Lead time vs cancellation (strip/scatter chart)
+- Combined everything into a single **Hotel Booking Dashboard** using `plt.subplots(2,3)` — a 2x3 grid showing hotel bookings, cancellation ratio, monthly trend, market segment, waiting list, and reservation status all in one view
 
 ## Tools
 Python, pandas, numpy, matplotlib, seaborn
@@ -60,6 +61,7 @@ Jotting down anything I learn or find interesting while solving these — patter
 - `groupby()` + `.mean()` is doing a lot of heavy lifting for cancellation rate questions
 - Learned `unstack()` to reshape grouped data for stacked bar charts
 - Donut chart is just a pie chart with `wedgeprops = dict(width=0.5)`
+- `plt.subplots(rows, cols)` + indexing `ax[row, col]` is a clean way to combine multiple charts into one dashboard view
 
 ---
 
