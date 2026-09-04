@@ -142,7 +142,16 @@ charts
 
 
 
+subplot 
 
+
+Subplot	Question 
+ax[0,0] – Hotel Booking (bar)	Which hotel receives more bookings?
+ax[0,1] – Canceled Ratio (bar)	Which hotel has more cancelled bookings?
+ax[0,2] – Month Data (line)	Which month receives the most bookings?
+ax[1,0] – Market Segment (bar)	Which market segment produces the most bookings?
+ax[1,1] – Waiting list (line)	(Not directly in your questions file — looks like your own added question on how many bookings had a waiting list, by month/category)
+ax[1,2] – Reservation Status (pie)
 
 
 
