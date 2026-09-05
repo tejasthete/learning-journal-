@@ -112,7 +112,7 @@ The EDA section focuses on understanding the dataset and identifying important b
 11. Category-wise revenue
 12. Rating distribution
 13. Correlation analysis
-14. Time-based sales analysis
+
 
 ---
 
