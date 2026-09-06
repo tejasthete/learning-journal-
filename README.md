@@ -23,6 +23,9 @@ This repo is where I track what I learn every day. Instead of scattered notes, e
 | 2026-09-03 | Matplotlib & Seaborn | Applied EDA to Hotel Bookings dataset with 9 charts: count plot (bookings by hotel), pie chart (% cancelled), stacked column (cancellations by hotel), bar chart (cancellations by market segment), column chart (avg ADR by hotel), line charts (booking demand & ADR by month), donut chart (bookings by customer type), scatter/strip plot (lead time vs cancellation) |
 |2026-09-04	|Matplotlib	plt.subplots |— combined 6 individual charts into one Hotel Booking Dashboard (hotel bookings, cancellation ratio, monthly trend, market segment, waiting list, reservation status) using fig.suptitle(), per-axis ax[row,col].set_title(), and plt.tight_layout()
 
+| 2026-09-05 | Pandas / EDA / Data Science Project | Started a Pizza Sales Data Science project using an Excel dataset. Set up the project structure, loaded and explored the dataset, performed EDA including pizza-wise sales and revenue analysis, Veg vs Non-Veg comparison, unsold pizza analysis, price/sales/revenue distributions, scatter plots, category analysis, rating analysis, and correlation heatmap.                                                   |
+| 2026-09-06 | Pandas / EDA / Feature Engineering  | Continued the Pizza Sales project with time-based analysis. Converted the `Date` column to datetime and created date-based features such as month, day, and day name. Analyzed daily/monthly sales and sales by day of the week. Started the Feature Engineering stage by creating business-related features such as `Revenue_Per_Pizza`, `Unsold_Rate`, `Total_Production`, `Sales_Rate`, and `Sales_Performance`. |
+
 
 ## 🛠️ Tools & Tech
 - Python
