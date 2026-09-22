@@ -12,6 +12,7 @@ Hands-on notebooks from my structured ML learning track. This folder starts with
 | **Polynomial Regression** | `PolynomialFeatures` + `LinearRegression`, underfitting vs. good fit vs. overfitting, a degree-9 polynomial experiment to see overfitting on test data |
 | **Encoding categorical data** | Label Encoder (one number per category) and One-Hot Encoder (one binary column per category) |
 | **Logistic Regression** | Binary classification, `predict` vs. `predict_proba`, threshold-based prediction, confusion matrix, accuracy / precision / recall / F1 on two toy datasets (one cleanly separable, one not) |
+| **Decision Trees** | `DecisionTreeClassifier` on two toy datasets (loan approval, weather/play prediction), Gini impurity vs. entropy as split criteria, `max_depth` and `criterion` tuning, visualizing trees with `plot_tree`, encoding categorical features (Label vs. One-Hot) for tree input |
 
 ## Key lessons so far
 
@@ -20,6 +21,8 @@ Hands-on notebooks from my structured ML learning track. This folder starts with
 - **Tiny test sets prove little.** A perfect score on two test samples is not evidence that a model works.
 - **Overfitting is visible only on unseen data.** A high-degree polynomial can fit the training set closely and still fail on the test set.
 - **Shapes matter.** `X` is a 2D matrix, `y` is a 1D vector, and `.predict()` always needs 2D input.
+- **Trees need numeric input.** Unlike linear/logistic regression, a raw categorical column throws a hard error on `.fit()` — encoding isn't optional.
+- **Encoding choice changes column count, not just values.** One-Hot expands a single categorical column into N binary columns, which silently changes how many features the model expects at prediction time — every downstream `.predict()` call has to match that shape exactly.
 
 ## How I work
 
@@ -30,4 +33,4 @@ Hands-on notebooks from my structured ML learning track. This folder starts with
 
 ## Status and next steps
 
-Work in progress. Planned next: regularization, gradient descent, and re-running the classification experiments with stratified splits to compare metrics before and after.
+Work in progress. Planned next: regularization, gradient descent, Random Forests (building on the Decision Tree foundation), and re-running the classification experiments with stratified splits to compare metrics before and after.
