@@ -14,6 +14,8 @@ Hands-on notebooks from my structured ML learning track. This folder starts with
 | **Logistic Regression** | Binary classification, `predict` vs. `predict_proba`, threshold-based prediction, confusion matrix, accuracy / precision / recall / F1 on two toy datasets (one cleanly separable, one not) |
 | **Decision Trees** | `DecisionTreeClassifier` on two toy datasets (loan approval, weather/play prediction), Gini impurity vs. entropy as split criteria, `max_depth` and `criterion` tuning, visualizing trees with `plot_tree`, encoding categorical features (Label vs. One-Hot) for tree input |
 | **Decision Trees 2** | Built a second tree (Age + FB time → ad click). All leaves hit gini = 0.0 — perfect fit on 4 rows, same overfitting pattern as the earlier degree-9 polynomial. Also hit an UndefinedMetricWarning: 5-row dataset + test_size=0.2 left only 1 test sample, so precision/recall/F1 came back 0.0 despite 1.0 accuracy.|
+| **Random Forest** | Random Forest Classifier | Built models for student placement and loan approval. Key lesson: a perfect score isn't always a good score. My test sets had only one class, so I added stratified splitting for a fairer evaluation. Data is still tiny, so cross-validation is next.|
+
 ## Key lessons so far
 
 - **Scale after splitting.** Fit `StandardScaler` on the training data only, then use `transform` on the test data. Fitting on the test set leaks information.
