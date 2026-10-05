@@ -38,7 +38,8 @@ This repo is where I track what I learn every day. Instead of scattered notes, e
 2026-09-30| Random Forest | Built models for student placement and loan approval. Key lesson: a perfect score isn't always a good score. My test sets had only one class, so I added stratified splitting for a fairer evaluation. Data is still tiny, so cross-validation is next. |
 2026-10-01 |ML-Bagging (Bootstrap + OOB Score) | Learned how bagging combines bootstrap sampling (rows drawn with replacement) with majority-vote aggregation across trees, and how the OOB score gives a built-in validation estimate. Built a BaggingClassifier with decision trees on a student placement dataset and got an OOB score of 91.67%, though with only 3 trees that number isn't reliable yet. Next, I'll increase the estimators, evaluate on the test set, and compare a single Decision Tree vs Bagging vs Random Forest.
 2026-10-03| ada_boost vs gradiant_boost|Training an AdaBoostClassifier and inspecting its individual weak learners and their weights (estimator_weights_),Evaluating it with accuracy, a confusion matrix, and a classification report,Training a GradientBoostingClassifier and looking at the sequence of trees it builds,Tracing how each learner contributes to the prediction for a new data point|
-
+2026-10-05|xgboost_Social media virality: 15 posts with Followers, Likes, Comments, Shares, Watch_Time and Saves, predicting whether a post goes Viral (0/1).
+E-commerce purchase: a dataset loaded from book1.xlsx with Age, Previous_Orders, Pages_Viewed, Time_Spent, Cart_Items and Discount, predicting Purchased.|
 ## 🛠️ Tools & Tech
 -- Python
 - Jupyter Notebook
