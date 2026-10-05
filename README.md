@@ -37,6 +37,8 @@ This repo is where I track what I learn every day. Instead of scattered notes, e
 2026-09-23| Decision Tree 2 |Built a second tree (Age + FB time → ad click). All leaves hit gini = 0.0 — perfect fit on 4 rows, same overfitting pattern as the earlier degree-9 polynomial. Also hit an UndefinedMetricWarning: 5-row dataset + test_size=0.2 left only 1 test sample, so precision/recall/F1 came back 0.0 despite 1.0 accuracy. Confirms the stratify-small-splits lesson with a sharper example. Next: bigger dataset, then entropy.|
 2026-09-30| Random Forest | Built models for student placement and loan approval. Key lesson: a perfect score isn't always a good score. My test sets had only one class, so I added stratified splitting for a fairer evaluation. Data is still tiny, so cross-validation is next. |
 2026-10-01 |ML-Bagging (Bootstrap + OOB Score) | Learned how bagging combines bootstrap sampling (rows drawn with replacement) with majority-vote aggregation across trees, and how the OOB score gives a built-in validation estimate. Built a BaggingClassifier with decision trees on a student placement dataset and got an OOB score of 91.67%, though with only 3 trees that number isn't reliable yet. Next, I'll increase the estimators, evaluate on the test set, and compare a single Decision Tree vs Bagging vs Random Forest.
+2026-10-03| ada_boost vs gradiant_boost|Training an AdaBoostClassifier and inspecting its individual weak learners and their weights (estimator_weights_),Evaluating it with accuracy, a confusion matrix, and a classification report,Training a GradientBoostingClassifier and looking at the sequence of trees it builds,Tracing how each learner contributes to the prediction for a new data point|
+
 ## 🛠️ Tools & Tech
 -- Python
 - Jupyter Notebook
