@@ -44,7 +44,8 @@ This repo is where I track what I learn every day. Instead of scattered notes, e
 15 Oct 2026| K-Means Clustering (Unsupervised Learning) | Practiced K-Means (n_clusters=3, random_state=42) on the tips dataset and three toy datasets (customer segmentation, fitness activity, weather), using fit_predict(), cluster_centers_ and cluster scatter plots with black X centroids.Learned that centroids are cluster means that describe a typical member of each group, and fixed bugs (isnull() parentheses, MODEL case typo). Next: Elbow Method, silhouette score and StandardScaler.
 16 Oct 2026 | DBSCAN Clustering (Unsupervised Learning) | Learned how DBSCAN groups points by density, without choosing the number of clusters in advance, and labels outliers as noise (-1). Applied DBSCAN(eps=1.5, min_samples=3) to Study Hours vs Marks and to an x-y dataset, then plotted the labels.
 19 Oct 2026 | Apriori | Apriori algorithm from scratch-to-code: Support, Confidence and Lift explained by hand, then applied with mlxtend in Python.|
-21 Oct 2026 | AgglomerativeClustering() |bottom-up hierarchical clustering, single vs ward linkage, n_clusters to cut the tree, dendrograms via scipy linkage()/dendrogram() to choose the number of clusters
+21 Oct 2026 | AgglomerativeClustering() |bottom-up hierarchical clustering, single vs ward linkage, n_clusters to cut the tree, dendrograms via scipy linkage()/dendrogram() to choose the number of clusters|
+26 Oct 2026 |Mini Project |Explored 2,240 customers across 22 columns: wine and meat make up about 78% of spend, only 15% accepted the last campaign, and I found data issues (24 missing incomes, a 666,666 income outlier, 3 impossible birth years).Work in progress. Next I’ll clean the data, build features like total spend and age, then try customer segmentation.|
 ## 🛠️ Tools & Tech
 -- Python
 - Jupyter Notebook
