@@ -46,6 +46,7 @@ This repo is where I track what I learn every day. Instead of scattered notes, e
 19 Oct 2026 | Apriori | Apriori algorithm from scratch-to-code: Support, Confidence and Lift explained by hand, then applied with mlxtend in Python.|
 21 Oct 2026 | AgglomerativeClustering() |bottom-up hierarchical clustering, single vs ward linkage, n_clusters to cut the tree, dendrograms via scipy linkage()/dendrogram() to choose the number of clusters|
 26 Oct 2026 |Mini Project |Explored 2,240 customers across 22 columns: wine and meat make up about 78% of spend, only 15% accepted the last campaign, and I found data issues (24 missing incomes, a 666,666 income outlier, 3 impossible birth years).Work in progress. Next I’ll clean the data, build features like total spend and age, then try customer segmentation.|
+28 Oct 2026 |Learned PyTorch tensor basics today: creating tensors (rand, zeros, ones, randint), dtype handling, in-place ops (add_), reshape/transpose, and indexing/slicing with torch.flip for reversing.Also understood broadcasting rules (dimensions must match or be 1) and the difference between element-wise mul and matmul.|
 ## 🛠️ Tools & Tech
 -- Python
 - Jupyter Notebook
